@@ -1,4 +1,4 @@
-var gState, pCount,db,form,player,game,canvas;
+var gState = 0, pCount,db,form,player,game,canvas,allPlayers;
 
 function setup(){
     canvas = createCanvas(500,500);
